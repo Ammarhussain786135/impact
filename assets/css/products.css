@@ -1,0 +1,46 @@
+.products-choose-item {
+    box-shadow: 0px 0px 23px 0px #e1dede;
+}
+
+.products-choose-item:hover {
+    background-color: black;
+}
+
+.chs-prdct-img-w {
+    display: none;
+}
+
+.products-choose-item:hover .chs-prdct-img-r {
+    display: none;
+}
+
+.products-choose-item:hover .chs-prdct-img-w {
+    display: block;
+}
+
+.chs-prdct-p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #7c7c7c;
+}
+
+.products-choose-item:hover .chs-prdct-p {
+    color: #fff;
+}
+
+.chs-prdct-h {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.45rem;
+    font-weight: 600;
+}
+
+.products-choose-item:hover .chs-prdct-h {
+    color: #fff;
+}
+
+.btn-order {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    font-family: 'Oswald', sans-serif;
+}

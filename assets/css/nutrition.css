@@ -1,0 +1,74 @@
+/* Meal Plan Start */
+.meal-plan-h {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.meal-plan-tag {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1.63rem;
+}
+
+p.meal-plan-p {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.plan-sec-ldy-pic {
+    top: 6%;
+    left: 12%;
+    z-index: 2;
+}
+
+.plan-sec-man-pic {
+    top: 10%;
+    left: 1%;
+    z-index: 2;
+}
+
+.macro-lady {
+    width: 46vw;
+    position: relative;
+    z-index: 1;
+}
+
+.macro-weight {
+    font-weight: 500;
+    color: #606060f2;
+    font-size: 17px;
+}
+
+.macro-calor-weight {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.list-icn-tick {
+    width: 1.5vw;
+}
+
+.plan-ldy-dtl {
+    position: absolute;
+    width: 40vw;
+    right: 4%;
+    bottom: -14%;
+}
+
+.plan-man-dtl {
+    position: absolute;
+    width: 40vw;
+    right: -8%;
+    bottom: -20%;
+}
+
+.calor-text {
+    font-weight: 500;
+    font-size: 17px;
+    color: #606060f2;
+    line-height: 1.2;
+}
+
+/* Meal Plan End */

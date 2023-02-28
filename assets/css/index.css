@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+/* Header Starts */
+.hdr-icn {
+    font-size: 31px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hdr-cntct-tag p {
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hdr-cntct-tag font {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a.nav-link, .btn-cntct {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Header End */
+
+/* Main Banner Start */
+.main-bnr {
+    margin-top: -13%;
+}
+
+.main-bnr-tag, .main-bnr-light-tag {
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    line-height: 0.7;
+    position: relative;
+    z-index: 1;
+}
+
+.main-bnr-light-tag {
+    color: #484646;
+}
+
+.main-bnr-tag-h {
+    font-size: 6.5rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.main-bnr-cntnt {
+    font-weight: 200;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.4;
+}
+
+.main-bnr-arw {
+    left: 3%;
+    bottom: -1%;
+}
+
+.main-bnr-bg-img {
+    bottom: 4%;
+}
+
+.main-bnr-bg-img img {
+    height: 71vh;
+}
+
+/* Main Banner End */
+
+/* Welcome Start */
+.wel-sec-main-h {
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+p.wel-sec-main-cntnt {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+p.wel-sec-call-cntnt {
+    font-size: 13px;
+    font-weight: 400;
+    word-spacing: -2px;
+}
+
+.wel-plain-img {
+    z-index: 1;
+}
+
+.wel-sec-ldy-pic {
+    top: 0;
+    left: 14%;
+    z-index: 2;
+}
+
+.wel-sec-cmpny-nm {
+    top: 38%;
+    left: 6%;
+    z-index: 3;
+}
+
+.wel-shade-img {
+    transform: rotateY(178deg);
+    right: 0;
+    top: 46%;
+}
+
+.wel-shade-img img {
+    width: 36vh;
+}
+
+/* Welcome End */
+
+
+/* Protien Start */
+.protien-sec {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    z-index: 1;
+    position: relative;
+}
+
+.protien-sec-tag {
+    font-weight: 400;
+}
+
+.protien-sec-tag-h {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 2.6rem;
+}
+
+.protien-sec-item {
+    border: 1px solid #ccc;
+}
+
+.protien-sec-item-sale {
+    top: 0;
+    height: 55.7vh;
+    width: 18vw;
+    background-color: #363636eb;
+    display: none;
+    padding-top: 38%;
+}
+
+.protien-sec-item:hover .protien-sec-item-sale {
+    display: block;
+}
+
+.sale-price {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Protien End */
+
+/* Count Start */
+.count-sec {
+    box-shadow: 0px 0px 20px 5px #ccc;
+    width: 89vw;
+    margin-left: 10%;
+    margin-bottom: -15%;
+}
+
+.count-sec-cntnr {
+    width: 79vw;
+}
+
+.count-num {
+    transform: rotate(-90deg);
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    position: absolute;
+    left: 5%;
+    top: 13%;
+}
+
+.count-bg {
+    top: 35%;
+    left: 19%;
+}
+
+.count-img {
+    padding-top: 60%;
+}
+
+.count-nam {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+/* Count End */
+
+/* Choose Start */
+
+.choose-item {
+    box-shadow: 0px 0px 23px 0px #e1dede;
+}
+
+.chs-itm-h, .chs-itm-p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.chs-itm-h {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.chs-itm-p {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.owl-carousel .owl-item .choose-item img {
+    display: block;
+    width: 3vw;
+    margin: auto;
+}
+
+.bbb_main_container {
+    background-color: #fff;
+}
+
+.bbb_viewed_nav_container {
+    position: absolute;
+    right: 26px;
+    top: -10%;
+}
+
+.bbb_viewed_nav {
+    display: inline-block;
+    cursor: pointer
+}
+
+.bbb_viewed_nav i {
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.bbb_viewed_nav:hover i {
+    color: #fff;
+}
+
+.bbb_viewed_nav {
+    background-color: #ea2234;
+}
+
+.bbb_viewed_prev:hover {
+    background-color: #202020;
+}
+
+.bbb_viewed_nav.bbb_viewed_next:hover {
+    background-color: #202020;
+}
+
+.bbb_viewed_slider_container .owl-carousel .owl-item .choose-item:hover {
+    background-color: #202020;
+}
+
+.bbb_viewed_slider_container .owl-carousel .owl-item .choose-item:hover .chs-itm-h,
+.bbb_viewed_slider_container .owl-carousel .owl-item .choose-item:hover .chs-itm-p {
+    color: #fff;
+}
+
+.bbb_viewed_slider_container .owl-carousel .owl-item .choose-item .chs-itm-img-w {
+    display: none;
+}
+
+.bbb_viewed_slider_container .owl-carousel .owl-item .choose-item:hover .chs-itm-img-r {
+    display: none;
+}
+
+.bbb_viewed_slider_container .owl-carousel .owl-item .choose-item:hover .chs-itm-img-w {
+    display: block;
+}
+
+.chs-shade-img {
+    transform: rotateY(178deg);
+    right: -22%;
+    bottom: -17%;
+}
+
+.chs-shade-img img {
+    width: 38vh;
+}
+
+/* Choose End */
+
+/* Health Start */
+.health-sec {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    z-index: 1;
+    position: relative;
+}
+
+.hlth-sec-impct {
+    bottom: 0;
+}
+
+.hlth-sec-cntnt {
+    position: relative;
+    z-index: 1;
+}
+
+/* Health End */
+
+/* Choose Fit Start */
+.chs-fit-shade-img {
+    transform: rotateY(178deg);
+    right: -22%;
+    bottom: -46%;
+}
+
+.fit-figure {
+    background-color: #202020;
+}
+
+.fit-name {
+    font-weight: 600;
+    font-family: 'Oswals', sans-serif;
+}
+
+.fit-nm-tag {
+    font-weight: 100;
+    font-family: 'Oswals', sans-serif;
+    font-size: 14px;
+}
+
+.fit-img {
+    width: 18.1vw;
+    height: 35vh;
+}
+
+.fit-fig-btn {
+    bottom: 27%;
+    right: 9%;
+}
+
+.btn-menu {
+    bottom: 40%;
+    right: 9%;
+    display: none;
+}
+
+.fit-btns:hover .btn-menu {
+    display: block;
+}
+
+/* Choose Fit End */
+
+/* Plan Start */
+.plan-sec {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    z-index: 1;
+    position: relative;
+}
+
+.plan-card {
+    background-color: #e1dede;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plan-card:hover {
+    background-image: url(../images/Home/34.png);
+    background-color: transparent;
+}
+
+.plan-card-btn {
+    border: 2px solid #ea2234;
+    color: #ea2234;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.plan-card:hover .plan-card-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.crd-text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.plan-card:hover .crd-text {
+    color: #fff;
+}
+
+.plan-card hr {
+    width: 35px;
+    border-top: 1px solid #ea2234;
+    margin-left: 0;
+}
+
+.plan-card:hover hr {
+    width: 35px;
+    border-top: 1px solid #fff;
+    margin-left: 0;
+}
+
+.plan-card-p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.plan-card:hover .plan-card-p {
+    color: #fff;
+}
+
+.plan-price {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.plan-card:hover .plan-price {
+    color: #fff;
+}
+
+.plan-price sup small {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.plan-price sup {
+    top: -0.7em;
+}
+
+.plan-price sub small {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.plan-price sub {
+    bottom: 0em;
+}
+
+.plan-buy-btn {
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    font-family: 'Oswald', sans-serif;
+    background-color: #ea2234;
+}
+
+/* Plan End */
+
+/* Testimonial Start */
+.test-sec {
+    z-index: 1;
+    position: relative;
+}
+
+.test-card {
+    background-color: #3f4042cf;
+}
+
+.test-p {
+    color: #ffffffad;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    word-spacing: 8px;
+}
+
+.test-c-name {
+    color: #ea2234;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.test-c-tag {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+
+}
+
+/* Testimonial End */
+
+/* Blog Start */
+.blog-shade-img {
+    transform: rotateY(178deg);
+    right: -22%;
+    bottom: -83%;
+}
+
+.blog-card {
+    box-shadow: 0px 0px 20px 2px #e1dddd;
+}
+
+.blog-crd-text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.blog-card-p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #8b8b8bad;
+}
+
+.blog-buy-btn {
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    font-family: 'Oswald', sans-serif;
+    background-color: #ea2234;
+}
+
+/* Blog End */
+
+/* Sign Up Start */
+#first_name {
+    background-color: #f6f7f9;
+    width: 19vw;
+}
+
+#first_name::placeholder {
+    color: #c5c4c4;
+}
+
+#last_name {
+    background-color: #f6f7f9;
+    width: 19vw;
+}
+
+#last_name::placeholder {
+    color: #c5c4c4;
+}
+
+#email {
+    background-color: #f6f7f9;
+    width: 19vw;
+}
+
+#email::placeholder {
+    color: #c5c4c4;
+}
+
+.sign-up-btn {
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    font-family: 'Oswald', sans-serif;
+    background-color: #ea2234;
+    width: 19vw;
+}
+
+/* Sign Up End */
+
+/* Footer Start */
+.ftr-lnk-name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.social-links {
+    width: 4vw;
+    height: 8.315vh;
+    background-color: white;
+}
+
+.social-links:hover {
+    background-color: #ea2234;
+}
+
+.social-links i {
+    color: #ea2234;
+    font-size: 22px;
+}
+
+.social-links:hover i {
+    color: #fff;
+}
+
+.contact-map, .contact-tel {
+    font-family: 'Oswald', sans-serif;
+    display: block;
+}
+
+.contact-tel {
+    font-weight: 600 !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+a.contact-map {
+    font-weight: 200;
+    font-size: 18px;
+    color: #ffffffc2 !important;
+}
+
+.copyright-sec {
+    background-color: #ea2234;
+}
+
+.cpy-rght-cntnt {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* Footer End */

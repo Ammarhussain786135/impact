@@ -1,0 +1,145 @@
+@media (max-width: 1281px) {
+    .chs-shade-img {
+        transform: rotateY(178deg);
+        right: -15%;
+        top: -110px;
+    }
+
+    .chs-shade-img img {
+        width: 30vh;
+    }
+
+    .main-bnr {
+        margin-top: -14%;
+    }
+
+    .main-bnr-cntnt {
+        font-size: 21px;
+    }
+
+    p.wel-sec-main-cntnt {
+        font-size: 22px;
+    }
+
+    .chs-prdct-p {
+        font-size: 22px !important;
+    }
+
+    .test-p {
+        font-size: 19px;
+    }
+
+    .social-links {
+        width: 4vw;
+        height: 6.4vh;
+    }
+
+    .ftr-lnk-name {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+        font-size: 19px;
+    }
+
+    .cpy-rght-cntnt {
+        font-size: 20px;
+    }
+
+    .hdr-cntct-tag p {
+        font-weight: 500;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+@media (max-width: 1024px) {
+    .chs-shade-img {
+        transform: rotateY(178deg);
+        right: -10%;
+        bottom: -22%;
+    }
+
+    .main-bnr {
+        margin-top: -17%;
+    }
+
+    .protien-sec-item img {
+        width: 20vw;
+    }
+
+    .protien-sec-item-sale {
+        top: 0;
+        height: 50vh;
+        width: 19.6vw;
+        padding-top: 35%;
+    }
+
+    p.wel-sec-main-cntnt {
+        font-size: 20px;
+    }
+
+    .chs-prdct-h {
+        font-size: 1.4rem !important;
+    }
+
+    .chs-prdct-p {
+        font-size: 20px !important;
+    }
+
+    .test-p {
+        font-size: 17px;
+    }
+
+    .social-links {
+        width: 5vw;
+        height: 8.533vh;
+    }
+}
+
+@media (max-width: 912px) {
+    .main-bnr {
+        margin-top: -25%;
+    }
+
+    #navbarSupportedContent {
+        width: 100vw;
+        margin-left: -10.5%;
+        text-align: center;
+        top: 8%;
+        height: 110vh;
+        position: fixed;
+        z-index: 9999;
+        background: white;
+    }
+
+    a.nav-link, .btn-cntct {
+        font-weight: 500 !important;
+        font-size: 5rem !important;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main-bnr-cntnt {
+        font-size: 23px;
+    }
+
+    .protien-sec-item-sale {
+        top: 0;
+        height: 20vh;
+        width: 34.1vw;
+        padding-top: 17%;
+    }
+
+    p.wel-sec-main-cntnt {
+        font-size: 34px;
+    }
+
+    .chs-prdct-p {
+        font-size: 30px !important;
+    }
+
+    .chs-shade-img img {
+        display: none;
+    }
+
+    .chs-prdct-h {
+        font-size: 2.5rem !important;
+    }
+}

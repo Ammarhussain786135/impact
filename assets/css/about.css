@@ -1,0 +1,75 @@
+/* Progression Start */
+.wel-btn {
+    width: 13vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wel-btn div {
+    font-weight: 500;
+}
+
+.wel-btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.wel-btn:focus:after {
+    content: '';
+    position: absolute;
+    left: 6%;
+    top: 102%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #dc3545;
+    clear: both;
+}
+
+.bg-grey {
+    background-color: #efefef;
+}
+
+.wel-sec-man-pic {
+    top: 9.2%;
+    left: 22.5%;
+    z-index: 2;
+}
+
+.wel-abt-shade-img {
+    transform: rotateY(178deg);
+    right: 0;
+    top: 42%;
+}
+
+.wel-abt-shade-img img {
+    width: 36vh;
+}
+
+/* Progression End */
+
+/* Image-Section Start */
+
+.img-sec-img {
+    width: 19vw;
+    box-shadow: 0px 5px 15px 1px #ccc;
+}
+
+.img-container {
+    margin-bottom: -14%;
+}
+
+.chs-sgnup-shade-img {
+    transform: rotateY(178deg);
+    right: -22%;
+    bottom: -39%;
+}
+
+.chs-sgnup-shade-img img {
+    height: 70vh;
+    width: 17vw;
+}
+
+/* Image-Section End */
